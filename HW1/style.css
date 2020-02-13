@@ -1,0 +1,71 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+main{
+    font-size: 0;
+text-align: center;
+height: 558px;
+}
+.header{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 140px;
+    margin-bottom: 105px;
+}
+.header p:first-child{
+    font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 12px;
+letter-spacing: 3px;
+color: #898f99;
+}
+.header p:last-child{
+font-family: 'PT Sans', sans-serif;
+font-size: 18px;
+letter-spacing: 1px;
+color: #898f99;
+}
+
+.header h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #0ec8cb;
+    letter-spacing: 2px;
+}
+main>div{
+    width: 230px;
+    background-color: burlywood;
+    height: 420px;
+    display: inline-block;
+    padding-top: 55px;
+    background-color: #f7f7f7;
+}
+main div div{
+    margin: 0 35px;
+}
+main div h2{
+    margin-top: 55px;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+}
+main div p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+main div:nth-of-type(2) svg{
+    margin-bottom: -25px;
+}
+
+main div:hover{
+    background-color: #0ec8cb;
+    color: white;
+}
+main div:hover path{
+fill: white;
+}
